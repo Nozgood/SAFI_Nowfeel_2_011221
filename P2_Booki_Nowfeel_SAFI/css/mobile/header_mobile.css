@@ -31,7 +31,7 @@
         padding-inline-start: 0;
     }
 
-    li {
+    .header-li {
         display:flex;
         justify-content: space-around;
         border-bottom: 3px solid #F2F2F2;
@@ -39,7 +39,7 @@
         width:100%;
     }
 
-    li:hover {
+    .header-li:hover {
         border-bottom: 3px solid #0065FC;
         padding-bottom: 10px;
     }
