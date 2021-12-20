@@ -96,7 +96,10 @@
         border-style: solid;
     }
     .bouton-filtre:hover {
-        transform: skew(10deg, 10deg);
+        background-color: #0065FC;
+    }
+    .titre-filtre:hover {
+        color: #F2F2F2;
     }
     .icone-filtre {
         display: flex;
