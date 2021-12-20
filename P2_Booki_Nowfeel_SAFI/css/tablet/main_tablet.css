@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/* pour tablette */
+@media all and (min-width: 768px) and (max-width: 992px) {
+    /* balise globale */ 
+    .barre-plus-filtre {
+        padding-left: 32px;
+    }
+    /* gestion du style des grands titres */
+    h1 {  
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    /* gestion du style des paragraphes */
+    p {
+        margin-top: 0;
+        font-size: 15px;
+    }
+    /* barre de recherche */
+    .formulaire {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+        border-radius: 15px;
+        border: 1px solid #f2f2f2;
+        background-color: white;
+    }
+
+    .recherche {
+        width: 100%;
+        border: none;
+        padding-left: 10px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .bouton {
+        border: none;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-weight: bold;
+        background-color: #0065FC;
+        border-radius: 15px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+
+    .icone {
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 90px;
+    }
+    
+    .Filtres {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+    .tousfiltres {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bouton-filtre {
+        margin: 0 10px 10px 5px;
+        padding: 0;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        height: 50px;
+        border-color: #d9d9d9;
+        border-style: solid;
+    }
+    .icone-filtre {
+        display: flex;
+        margin-left: -10px;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        padding: 15px;
+        color: #0065FC;
+        font-size: 20px;
+        background-color: #DEEBFF;
+        border-radius: 30px;
+    }
+    .titre-filtre {
+        padding: 0 15px;
+    }
+}
