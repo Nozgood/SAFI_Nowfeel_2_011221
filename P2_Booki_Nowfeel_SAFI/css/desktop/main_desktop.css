@@ -449,7 +449,7 @@
         margin-top: 40px;
         margin-bottom: 20px;
     }
-    
+
     .card-activites-item-titre {
         display: flex;
         padding-left: 20px;
@@ -466,6 +466,9 @@
         background-color: #F2F2F2;
         padding-left: 20px;
         padding-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -260px;
     }
     .footer-all-items {
         display: flex;
