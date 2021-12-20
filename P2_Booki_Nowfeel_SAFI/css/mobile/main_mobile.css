@@ -394,6 +394,7 @@
         height: 100%;
         object-fit: cover;
         border-radius: 20px 20px 0 0;
+    }
     .card-activites-item {
         display: flex;
         flex-direction: column;
@@ -442,5 +443,15 @@
         margin-block-end: 0;
         margin-block-start: 0;
         padding-bottom: 10px;
+    }
+    .footer-item-ol {
+        padding-inline-start: 0;
+    }
+    .footer-li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    .footer-li:hover {
+        color: #0065FC;
     }
 }
