@@ -164,7 +164,10 @@
         background-color: #f2f2f2;
         border-radius: 10px;
     }
-
+    .card-hebergements-all-items {
+        display: flex;
+        flex-direction: row;
+    }
     .card-hebergements-titre {
         padding-left: 30px;
     }
@@ -172,10 +175,16 @@
     .card-hebergements-h1 {
         font-size: 18px;
     }
-    .card-hebergement-all-items {
+
+    .card-hebergements-item-un-a-trois {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .card-hebergements-items-4-a-6 {
+        display: flex;
+        flex-direction: row;
         justify-content: space-around;
     }
     .card-hebergement-item {
