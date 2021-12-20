@@ -27,8 +27,8 @@
                     <img  src="/P2_Booki_Nowfeel_SAFI/assets/images/logo/Booki@3x.png" alt="logo du site Booki">
                 </div>  
                 <ul class="navigation">
-                    <li> <a href="#hebergements"> Hébergements </a></li>
-                    <li> <a href="#activites">Activités </a> </li>
+                    <li class="header-li"> <a href="#hebergements"> Hébergements </a></li>
+                    <li class="header-li"> <a href="#activites">Activités </a> </li>
                 </ul> 
             </nav>
         </header>
@@ -186,159 +186,166 @@
                         <h1 class=card-hebergements-h1> Hébergements à Marseille</h1>
                     </div>
                     <div class="card-hebergement-all-items">
-                        <!-- 1er item -->
-                        <a href="#">
-                        <div class="card-hebergement-item">
-                            <div class="card-hebergement-item-image">
-                                <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/auberge-la-cannebiere.jpg" alt="image du soleil du matin">
-                            </div>
-                            <div class="card-hebergement-item-details">
-                                <div class="card-hebergement-item-texte">
-                                    <div class="card-hebergement-item-titre">
-                                        <h2 class="card-hebergement-item-h2"> Auberge la Cannebière </h2>
+                        <!-- item 1 à 3 -->
+                        <div class="card-hebergements-item-un-a-trois">
+                            <!-- 1er item -->
+                            <a href="#">
+                                <div class="card-hebergement-item">
+                                    <div class="card-hebergement-item-image">
+                                        <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/auberge-la-cannebiere.jpg" alt="image du soleil du matin">
                                     </div>
-                                    <div class="card-hebergement-item-subtitle">
-                                        <p class="card-hebergement-item-p"> Nuit à partir de <b>25€</b> </p>
+                                    <div class="card-hebergement-item-details">
+                                        <div class="card-hebergement-item-texte">
+                                            <div class="card-hebergement-item-titre">
+                                                <h2 class="card-hebergement-item-h2"> Auberge la Cannebière </h2>
+                                            </div>
+                                            <div class="card-hebergement-item-subtitle">
+                                                <p class="card-hebergement-item-p"> Nuit à partir de <b>25€</b> </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-hebergement-item-icone">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="icone-etoile-gris"> <i class="fas fa-star"></i></span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="card-hebergement-item-icone">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="icone-etoile-gris"> <i class="fas fa-star"></i></span>
+                            </a>
+                            <!-- 2eme item -->
+                            <a href="#">
+                                <div class="card-hebergement-item">
+                                    <div class="card-hebergement-item-image">
+                                        <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/hotel-du-port.jpg" alt="image du soleil du matin">
+                                    </div>
+                                    <div class="card-hebergement-item-details">
+                                        <div class="card-hebergement-item-texte">
+                                            <div class="card-hebergement-item-titre">
+                                                <h2 class="card-hebergement-item-h2"> Hôtel du port </h2>
+                                            </div>
+                                            <div class="card-hebergement-item-subtitle">
+                                                <p class="card-hebergement-item-p"> Nuit à partir de 52€ </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-hebergement-item-icone">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
                                 </div>
+                            </a>
+                            <!-- 3eme item -->
+                            <a href="#">
+                                <div class="card-hebergement-item">
+                                    <div class="card-hebergement-item-image">
+                                        <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/les-mouettes.jpg" alt="image du soleil du matin">
+                                    </div>
+                                    <div class="card-hebergement-item-details">
+                                        <div class="card-hebergement-item-texte">
+                                            <div class="card-hebergement-item-titre">
+                                                <h2 class="card-hebergement-item-h2"> Hôtel Les mouettes </h2>
+                                            </div>
+                                            <div class="card-hebergement-item-subtitle">
+                                                <p class="card-hebergement-item-p"> Nuit à partir de 76€ </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-hebergement-item-icone">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- items hebergements 4 à 6-->
+                        <div class="card-hebergements-items-4-a-6">
+                            <!-- 4eme item -->
+                            <a href="#">
+                                <div class="card-hebergement-item">
+                                    <div class="card-hebergement-item-image">
+                                        <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/de-la-mer.jpg" alt="image du soleil du matin">
+                                    </div>
+                                    <div class="card-hebergement-item-details">
+                                        <div class="card-hebergement-item-texte">
+                                            <div class="card-hebergement-item-titre">
+                                                <h2 class="card-hebergement-item-h2"> Hôtel de la mer </h2>
+                                            </div>
+                                            <div class="card-hebergement-item-subtitle">
+                                                <p class="card-hebergement-item-p"> Nuit à partir de 46€ </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-hebergement-item-icone">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
+                                            <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- 5eme item -->
+                            <a href="#">
+                                <div class="card-hebergement-item">
+                                    <div class="card-hebergement-item-image">
+                                        <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/le-panier.jpg" alt="image du soleil du matin">
+                                    </div>
+                                    <div class="card-hebergement-item-details">
+                                        <div class="card-hebergement-item-texte">
+                                            <div class="card-hebergement-item-titre">
+                                                <h2 class="card-hebergement-item-h2"> Auberge Le Panier </h2>
+                                            </div>
+                                            <div class="card-hebergement-item-subtitle">
+                                                <p class="card-hebergement-item-p"> Nuit à partir de <b>23€</b> </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-hebergement-item-icone">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- 6eme item -->
+                            <a href="#">
+                                <div class="card-hebergement-item">
+                                    <div class="card-hebergement-item-image">
+                                        <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/chez-amina.jpg" alt="image de l'hotel chez Amina">
+                                    </div>
+                                    <div class="card-hebergement-item-details">
+                                        <div class="card-hebergement-item-texte">
+                                            <div class="card-hebergement-item-titre">
+                                                <h2 class="card-hebergement-item-h2"> Hôtel chez Amina </h2>
+                                            </div>
+                                            <div class="card-hebergement-item-subtitle">
+                                                <p class="card-hebergement-item-p"> Nuit à partir de 96€</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-hebergement-item-icone">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
                         </div>
-                        </a>
-                        <!-- 2eme item -->
-                        <a href="#">
-                        <div class="card-hebergement-item">
-                            <div class="card-hebergement-item-image">
-                                <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/hotel-du-port.jpg" alt="image du soleil du matin">
-                            </div>
-                            <div class="card-hebergement-item-details">
-                                <div class="card-hebergement-item-texte">
-                                    <div class="card-hebergement-item-titre">
-                                        <h2 class="card-hebergement-item-h2"> Hôtel du port </h2>
-                                    </div>
-                                    <div class="card-hebergement-item-subtitle">
-                                        <p class="card-hebergement-item-p"> Nuit à partir de 52€ </p>
-                                    </div>
-                                </div>
-                                <div class="card-hebergement-item-icone">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
+                        <div class="afficher-plus">
+                            <h2 class="afficher-plus-h2"> Afficher plus </h2>
                         </div>
-                        </a>
-                        <!-- 3eme item -->
-                        <a href="#">
-                        <div class="card-hebergement-item">
-                            <div class="card-hebergement-item-image">
-                                <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/les-mouettes.jpg" alt="image du soleil du matin">
-                            </div>
-                            <div class="card-hebergement-item-details">
-                                <div class="card-hebergement-item-texte">
-                                    <div class="card-hebergement-item-titre">
-                                        <h2 class="card-hebergement-item-h2"> Hôtel Les mouettes </h2>
-                                    </div>
-                                    <div class="card-hebergement-item-subtitle">
-                                        <p class="card-hebergement-item-p"> Nuit à partir de 76€ </p>
-                                    </div>
-                                </div>
-                                <div class="card-hebergement-item-icone">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                        <!-- 4eme item -->
-                        <a href="#">
-                        <div class="card-hebergement-item">
-                            <div class="card-hebergement-item-image">
-                                <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/de-la-mer.jpg" alt="image du soleil du matin">
-                            </div>
-                            <div class="card-hebergement-item-details">
-                                <div class="card-hebergement-item-texte">
-                                    <div class="card-hebergement-item-titre">
-                                        <h2 class="card-hebergement-item-h2"> Hôtel de la mer </h2>
-                                    </div>
-                                    <div class="card-hebergement-item-subtitle">
-                                        <p class="card-hebergement-item-p"> Nuit à partir de 46€ </p>
-                                    </div>
-                                </div>
-                                <div class="card-hebergement-item-icone">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
-                                    <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                        <!-- 5eme item -->
-                        <a href="#">
-                        <div class="card-hebergement-item">
-                            <div class="card-hebergement-item-image">
-                                <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/le-panier.jpg" alt="image du soleil du matin">
-                            </div>
-                            <div class="card-hebergement-item-details">
-                                <div class="card-hebergement-item-texte">
-                                    <div class="card-hebergement-item-titre">
-                                        <h2 class="card-hebergement-item-h2"> Auberge Le Panier </h2>
-                                    </div>
-                                    <div class="card-hebergement-item-subtitle">
-                                        <p class="card-hebergement-item-p"> Nuit à partir de <b>23€</b> </p>
-                                    </div>
-                                </div>
-                                <div class="card-hebergement-item-icone">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="icone-etoile-gris"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                        <!-- 6eme item -->
-                        <a href="#">
-                        <div class="card-hebergement-item">
-                            <div class="card-hebergement-item-image">
-                                <img src="/P2_Booki_Nowfeel_SAFI/assets/images/hebergements/4_small/chez-amina.jpg" alt="image de l'hotel chez Amina">
-                            </div>
-                            <div class="card-hebergement-item-details">
-                                <div class="card-hebergement-item-texte">
-                                    <div class="card-hebergement-item-titre">
-                                        <h2 class="card-hebergement-item-h2"> Hôtel chez Amina </h2>
-                                    </div>
-                                    <div class="card-hebergement-item-subtitle">
-                                        <p class="card-hebergement-item-p"> Nuit à partir de 96€</p>
-                                    </div>
-                                </div>
-                                <div class="card-hebergement-item-icone">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="afficher-plus">
-                        <h2 class="afficher-plus-h2"> Afficher plus </h2>
                     </div>
                 </div>
             </div>
@@ -350,8 +357,8 @@
                 <div class="card-activites-all-item">
                     <!-- 1er card activités -->
                     <a href="#">
-                    <div class="card-activites-item">
-                        <div class="card-activites-image">
+                    <div class="card-activites-seul">
+                        <div class="card-activites-seul-image">
                             <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/vieux-port.jpg" alt="image du vieux port">
                         </div>
                         <div class="card-activites-item-titre">
@@ -359,32 +366,35 @@
                         </div>
                     </div>
                     </a>
-                    <!-- 2eme card activités -->
-                    <a href="#">
-                    <div class="card-activites-item">
-                        <div class="card-activites-image">
-                            <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/pomegues.jpg" alt="image du vieux port">
-                        </div>
-                        <div class="card-activites-item-titre">
-                            <h2 class="card-activites-item-h2"> Fort de Pomègues</h2>
-                        </div>
+                    <!--card activites 2 et 3 -->
+                    <div class="card-activites-deux-trois">
+                        <!-- 2eme card activités -->
+                        <a href="#">
+                            <div class="card-activites-deux">
+                                <div class="card-activites-deux-image">
+                                    <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/pomegues.jpg" alt="image du vieux port">
+                                </div>
+                                <div class="card-activites-item-titre">
+                                    <h2 class="card-activites-item-h2"> Fort de Pomègues</h2>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 3eme card activités -->
+                        <a href="#">
+                            <div class="card-activites-trois">
+                                <div class="card-activites-trois-image">
+                                    <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/ile-frioul.jpg" alt="image du vieux port">
+                                </div>
+                                <div class="card-activites-item-titre">
+                                    <h2 class="card-activites-item-h2"> Îles du Frioul</h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
-                    <!-- 3eme card activités -->
-                    <a href="#">
-                    <div class="card-activites-item">
-                        <div class="card-activites-image">
-                            <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/ile-frioul.jpg" alt="image du vieux port">
-                        </div>
-                        <div class="card-activites-item-titre">
-                            <h2 class="card-activites-item-h2"> Îles du Frioul</h2>
-                        </div>
-                    </div>
-                    </a>
                     <!-- 4eme card activités -->
                     <a href="#">
-                    <div class="card-activites-item">
-                        <div class="card-activites-image">
+                    <div class="card-activites-seul">
+                        <div class="card-activites-seul-image">
                             <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/calanques.jpg" alt="image du vieux port">
                         </div>
                         <div class="card-activites-item-titre">
@@ -392,40 +402,46 @@
                         </div>
                     </div>
                     </a>
-                    <!-- 5eme card activités -->
-                    <a href="#">
-                    <div class="card-activites-item">
-                        <div class="card-activites-image">
-                            <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/notre-dame.jpg" alt="image du vieux port">
-                        </div>
-                        <div class="card-activites-item-titre">
-                            <h2 class="card-activites-item-h2"> Notre-Dame-de-la-Garde</h2>
-                        </div>
+                    <!-- card activites 5 et 6 -->
+                    <div class="card-activites-cinq-six">
+                        <!-- 5eme card activités -->
+                        <a href="#">
+                            <div class="card-activites-cinq">
+                                <div class="card-activites-cinq-image">
+                                    <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/notre-dame.jpg" alt="image du vieux port">
+                                </div>
+                                <div class="card-activites-item-titre">
+                                    <h2 class="card-activites-item-h2"> Notre-Dame-de-la-Garde</h2>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 6eme card activités -->
+                        <a href="#">
+                            <div class="card-activites-six">
+                                <div class="card-activites-six-image">
+                                    <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/longchamp.jpg" alt="image du vieux port">
+                                </div>
+                                <div class="card-activites-item-titre">
+                                    <h2 class="card-activites-item-h2"> Parc Longchamp</h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
-                    <!-- 6eme card activités -->
-                    <a href="#">
-                    <div class="card-activites-item">
-                        <div class="card-activites-image">
-                            <img src="/P2_Booki_Nowfeel_SAFI/assets/images/activites/4_small/longchamp.jpg" alt="image du vieux port">
-                        </div>
-                        <div class="card-activites-item-titre">
-                            <h2 class="card-activites-item-h2"> Parc Longchamp</h2>
-                        </div>
-                    </div>
-                    </a>
                 </div>
             </div>
         </main>
+        <!-- footer -->
         <footer>
             <div class="footer-item">
                 <div class="footer-item-titre">
                     <h2 class="footer-item-h2"> A propos </h2>
                 </div>
                 <div class="footer-item-lien">
-                    <p class="footer-item-p"> Fonctionnement du site</p>
-                    <p class="footer-item-p"> Conditions générales de vente </p>
-                    <p class="footer-item-p"> Données et confidentialité </p>
+                    <ol class="footer-item-ol">
+                        <li class="footer-li"> Fonctionnement du site </li>
+                        <li class="footer-li"> Conditions générales de vente </li>
+                        <li class="footer-li"> Données et confidentialité </li>
+                    </ol>
                 </div>
             </div>
             <div class="footer-item">
@@ -433,8 +449,10 @@
                     <h2 class="footer-item-h2"> Nos hébergements</h2>
                 </div>
                 <div class="footer-item-lien">
-                    <p class="footer-item-p"> Charte qualité </p>
-                    <p class="footer-item-p"> Soumettre votre hôtel </p>
+                    <ol class="footer-item-ol">
+                        <li class="footer-li"> Charte qualité </li>
+                        <li class="footer-li"> Soumettre votre hôtel </li>
+                    </ol>
                 </div>
             </div>
             <div class="footer-item">
@@ -442,8 +460,10 @@
                     <h2 class="footer-item-h2"> Assistance </h2>
                 </div>
                 <div class="footer-item-lien">
-                    <p class="footer-item-p"> Centre d'aide </p>
-                    <p class="footer-item-p"> Nous contacter </p>
+                    <ol class="footer-item-ol">
+                        <li class="footer-li"> Centre d'aide</li>
+                        <li class="footer-li"> Nous contacter</li> 
+                    </ol>
                 </div>
         </footer>
     </body>
