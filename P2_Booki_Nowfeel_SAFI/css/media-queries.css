@@ -1,0 +1,488 @@
+/* media queries partie desktop */ 
+@media all and (min-width: 993px) {
+    /* limitation de la largeur du site */
+    body {
+        max-width: 1440px;
+    }
+    /* gestion du style des paragraphes */
+    p {
+        margin-top: 0;
+    }
+    /* nav-bar */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /*logo présent dans le header */
+    .logo {
+        display: flex;
+        padding-left: 32px;
+        height: 45px;
+    }
+    /* menu de navigation */
+    .navigation {
+        display: flex;
+        padding-inline-start: 0;
+        margin: 0;
+    }
+    .header-li{
+        display: flex;
+        list-style: none;
+        padding: 45px;
+    }
+    a:visited {
+        color: black;
+    }
+    .header-li:hover {
+        border-top: 1px solid #0065FC;
+        color: #0065FC; 
+    }
+    /* partie formulaire de recherche */
+    .formulaire {
+        width: 400px;
+    }
+    .bouton {
+        border: none;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-weight: bold;
+        background-color: #0065FC;
+        border-radius: 15px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .loupe {
+        display: none;
+    }
+    .icone {
+        width: 90px;
+    }
+    /* les filtres */ 
+    .Filtres {
+        display: flex;
+        align-items: center;
+    }
+    .grand-titre-filtre {
+        margin-right: 30px;
+    }
+    .petit-tips {
+        margin-bottom: 15px;
+    }
+    .card-hebergement-populaire {
+        flex-direction: row;
+    }
+    .card-populaire {
+    width: 35%;
+    border-radius: 10px;
+    order: 2;
+    padding-right: 10px;
+    }
+    .card-header-titre {
+        padding-left: 40px;
+    }
+    .card-header-icone {
+        padding-right: 40px;
+    }
+    .card-item {
+        margin-bottom: 25px;
+    }
+    .card-item-image {
+        height: 160px;
+    }
+    /* partie hebergements */
+    .card-hebergements {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 30px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 60%;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+    }
+    .card-hebergements-all-items {
+        display: flex;
+        flex-direction: row;
+    }
+    .card-hebergements-titre {
+        padding-left: 30px;
+    }
+    .card-hebergements-h1 {
+        font-size: 18px;
+    }
+    .card-hebergements-item-un-a-trois {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .card-hebergements-items-4-a-6 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card-hebergement-item {
+        width: 180px;
+    }
+    .afficher-plus {
+        padding-top: 10px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+    }
+    /* partie populaires */
+    .card-populaire-all-items {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* card activités à Marseille */
+    .card-activites {
+        padding-right: 60px;
+        padding-left: 20px;
+    }
+    .card-activites-all-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    /* card activites grand format (1 et 4) */
+    .card-activites-seul {
+        display: flex;
+        flex-direction: column;
+        box-shadow: -5px 5px 5px #f2f2f2;
+        border-radius: 20px 20px 20px 20px;
+        height: 100%;
+        padding-right: 10px;
+    }
+    .card-activites-seul-image {
+        width: 100%;
+        max-width: 250px;
+        height: 330px;
+        display: flex;
+    }
+        /* gestion du bloc activites deux et trois */ 
+        .card-activites-deux-trois {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 230px;
+            padding-right: 10px;
+        }
+    .card-activites-deux-image {
+        height: 170px;
+    }
+    .card-activites-trois-image {
+        height: 80px;
+    }
+    /* gestion du bloc activites 5 et 6 */
+    .card-activites-cinq-six {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 230px;
+        padding-right: 10px;
+    }
+    /* partie footer */
+    footer {
+        background-color: #F2F2F2;
+        padding-left: 20px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -130px;
+    }
+    .footer-all-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 80px;
+        margin-left: -200px;
+        margin-right: 200px;
+    }
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* pour tablette */
+@media all and (min-width: 769px) and (max-width: 992px) {
+    /* header */
+    .logo {
+        display: flex;
+        justify-content: center;
+        height: 45px;
+        margin: 32px 0 24px 0;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding-inline-start: 0;
+    }
+
+    li {
+        display:flex;
+        justify-content: space-around;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 10px;
+        width:100%;
+    }
+
+    li:hover {
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 10px;
+    }
+
+    a {  
+        color: black;
+        font-weight: lighter; 
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #0065FC; 
+    }
+    /* partie formulaire de recherche */
+    .formulaire {
+        height: 40px;
+        width: 100%;
+    }
+    .bouton {
+        border: none;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-weight: bold;
+        background-color: #0065FC;
+        border-radius: 15px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .loupe {
+        display: none;
+    }
+    .icone {
+        width: 90px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    /* style des cards hebergements et populaires  */
+    .card-hebergement-populaire {
+        display: flex;
+        flex-direction: column;
+    }
+    /* partie populaires */ 
+    .card-item-image {
+        height: 150px;
+    }
+    /* partie hebergements */
+    .afficher-plus {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    /* card activités à Marseille */
+    .card-activites {
+        padding: 0 20px;
+    }
+
+    .card-activites-all-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .card-activites-image {
+        width: 100%;
+        height: 120px;
+        display: flex;
+    }
+    /* style des card activites grand format (1 et 4) */
+    .card-activites-seul {
+        display: flex;
+        flex-direction: column;
+        box-shadow: -5px 5px 5px #f2f2f2;
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 20px;
+    }
+    .card-activites-seul-image {
+        width: 100%;
+        height: 120px;
+        display: flex;
+    }
+
+    /* style card activites 2 */
+    .card-activites-deux {
+        margin-bottom: 20px;
+    }
+
+    /* style card activites 3 */
+    .card-activites-trois {
+        margin-bottom: 20px;
+    }
+    /* style card activites 5 */
+    .card-activites-cinq {
+        margin-bottom: 20px;
+    }
+
+    /* card activites 6 */ 
+    .card-activites-six {
+        margin-bottom: 20px;
+    }
+
+    /* partie footer */
+    footer {
+        background-color: #F2F2F2;
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .footer-item-h2 {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    /* largeur minimale du site */
+    body {
+        min-width: 340px;
+    }
+    /* partie header */
+    .logo {
+        display: flex;
+        justify-content: center;
+        height: 45px;
+        margin: 32px 0 24px 0;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding-inline-start: 0;
+    }
+    .header-li {
+        display:flex;
+        justify-content: space-around;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 10px;
+        width:100%;
+    }
+    .header-li:hover {
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 10px;
+    }
+    a {  
+        color: black;
+    }
+    .grand-titre {
+        font-size: 20px;
+    }
+    /* partie formulaire de recherche */
+    .formulaire {
+        width: 100%;
+    }
+
+    .bouton {
+        display: none;
+    }
+    .loupe {
+        font-size: 15px;
+        font-weight: lighter;
+        color: white;
+        background-color: #0065FC;
+        border-radius: 15px;
+        width: 60px;
+        border: none;
+    }
+    .icone {
+        width: 70px;
+    }
+    /* partie hebergements + populaires */
+    .card-hebergement-populaire {
+        flex-direction: column;
+    }
+    .card-populaire {
+        padding-right: 15px;
+    }
+    .card-item-image {
+        height: 150px;
+    }
+    /* partie hebergements */
+    .card-hebergements {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .card-hebergement-item {
+        width: 100%;
+    }
+    .afficher-plus {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    /* card activités à Marseille */
+    .card-activites {
+        padding: 0 20px;
+    }    
+    .card-activites-all-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    /* style des card activites grand format (1 et 4) */
+    .card-activites-seul {
+        display: flex;
+        flex-direction: column;
+        box-shadow: -5px 5px 5px #f2f2f2;
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 20px;
+    }
+    .card-activites-seul-image {
+        width: 100%;
+        height: 120px;
+        display: flex;
+    }
+    .card-activites-deux {
+        margin-bottom: 20px;
+    }
+    .card-activites-deux-image {
+        height: 120px;
+    }
+    .card-activites-trois {
+        margin-bottom: 20px;
+    }
+    .card-activites-trois-image {
+        height: 120px;
+    }
+    .card-activites-cinq {
+        margin-bottom: 20px;
+    }
+    .card-activites-six {
+        margin-bottom: 20px;
+    }
+    /* partie footer */
+    footer {
+        background-color: #F2F2F2;
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .footer-item-h2 {
+        font-size: 18px;
+        margin-block-end: 0;
+        margin-bottom: 20px;
+    }
+}
