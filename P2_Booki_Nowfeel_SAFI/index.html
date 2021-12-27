@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <!-- meta, titre et import de fichiers externes --> 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1.0">
-        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/desktop/header_desktop.css">
-        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/desktop/main_desktop.css">
-        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/mobile/header_mobile.css">
-        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/mobile/main_mobile.css">
-        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/tablet/header_tablet.css">
-        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/tablet/main_tablet.css">
+        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/style.css">
+        <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/media-queries.css">
         <link rel="stylesheet" href="/P2_Booki_Nowfeel_SAFI/css/normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,6 +28,7 @@
                 </ul> 
             </nav>
         </header>
+        <main>
         <!-- barre de recherche + filtres -->
         <section class= "barre-plus-filtre">
             <div class= "titres">
@@ -51,30 +48,30 @@
             <div class="Filtres">
                 <h2 class=grand-titre-filtre> Filtres </h2>
                 <div class="tousfiltres">
-                    <button class="bouton-filtre">
+                    <div class="bouton-filtre">
                         <div class="icone-filtre">
                             <i class="fas fa-money-bill-wave"></i>
                         </div>
                         <h2 class="titre-filtre"> Économique </h2>
-                    </button>
-                    <button class="bouton-filtre">
+                    </div>
+                    <div class="bouton-filtre">
                         <div class="icone-filtre">
                             <i class="fas fa-child"></i>
                         </div>
                         <h2 class="titre-filtre"> Familial </h2>
-                    </button>
-                    <button class="bouton-filtre">
+                    </div>
+                    <div class="bouton-filtre">
                         <div class="icone-filtre">
                             <i class="fas fa-heart"></i>
                         </div>
                         <h2 class="titre-filtre"> Romantique </h2>
-                    </button>
-                    <button class="bouton-filtre">
+                    </div>
+                    <div class="bouton-filtre">
                         <div class="icone-filtre">
                             <i class="fas fa-dog"></i>
                         </div>
                         <h2 class="titre-filtre"> Animaux autorisés </h2>
-                    </button>
+                    </div>
                 </div>
             </div>
 
@@ -90,7 +87,6 @@
         </section>
 
         <!-- cards : hebergements + les plus populaires -->
-        <main>
             <div class="card-hebergement-populaire">
                 <!-- card populaire -->
                 <div class="card-populaire">
@@ -347,7 +343,6 @@
                         <div class="afficher-plus">
                             <h2 class="afficher-plus-h2"> Afficher plus </h2>
                         </div>
-                    </div>
                 </div>
             </div>
             <!-- card activités à Marseille -->
@@ -466,6 +461,7 @@
                         <li class="footer-li"><a href=#>Nous contacter</a></li> 
                     </ol>
                 </div>
+            </div>
         </footer>
     </body>
 </html>
