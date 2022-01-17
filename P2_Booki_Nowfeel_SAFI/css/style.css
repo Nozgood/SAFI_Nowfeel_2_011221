@@ -6,8 +6,9 @@
 }
 @font-face {
     font-family: 'Raleway';
-    src: url('/P2_Booki_Nowfeel_SAFI/css/fonts/Raleway-VariableFont_wght.ttf') format('truetype')
+    src: url('/P2_Booki_Nowfeel_SAFI/fonts/Raleway-VariableFont_wght.ttf') format('truetype')
 }
+
 /* gestion style des liens */
 a:link {
     text-decoration: none;
